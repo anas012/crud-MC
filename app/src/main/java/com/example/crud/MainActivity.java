@@ -82,9 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 List<studentmodel> list = dbHelper.getAllStudents();
                 ArrayAdapter arrayAdapter = new ArrayAdapter<studentmodel>(MainActivity.this, android.R.layout.simple_list_item_1,list);
                 listViewStudent.setAdapter(arrayAdapter);
-
-
-
+                
             }
         });
 
