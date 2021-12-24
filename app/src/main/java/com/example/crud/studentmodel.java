@@ -1,8 +1,6 @@
 package com.example.crud;
 
 public class studentmodel {
-
-
     private String name;
     private int age;
     private boolean isActive;
